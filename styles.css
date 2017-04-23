@@ -1,0 +1,53 @@
+body{
+  background-color: #187990;
+
+}
+
+@media only screen and (max-width: 600px)
+  {body
+  {
+  background-color: #b9dee6;
+  }
+ 
+
+}
+
+#boton {
+  color: white;
+  font-size: 25px;
+  margin-left: 530px;
+
+  border: 3px solid white;
+  width: 80px;
+  border-radius: 10%;
+  padding: 0% 5% 0% 5%;
+  text-align: center;
+
+}
+
+#result {
+  color: white;
+  font-size: 100px;
+  font-style: futura;
+}
+
+#first{
+  margin: 35px;
+  width: 170px;
+  height: 35px;
+  border-radius: 10%;
+  text-align: center;
+  margin-left: 450px;
+}
+
+#second{
+
+  width: 170px;
+  height: 35px;
+  border-radius: 10%;
+  text-align: center;
+}
+
+#result{
+  text-align: center;
+}
