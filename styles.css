@@ -1,3 +1,8 @@
+h1{
+  text-align: center;
+  color: white;
+}
+
 body{
   background-color: #187990;
 
@@ -6,9 +11,42 @@ body{
 @media only screen and (max-width: 600px)
   {body
   {
-  background-color: #b9dee6;
+  background-color: #187990;
+
   }
- 
+
+  #first{
+    margin: 35px;
+    width: 170px;
+    height: 35px;
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 100px !important;
+  }
+
+  #boton {
+    color: white !important;
+    font-size: 25px;
+    margin-left: 220px !important;
+
+    border: 3px solid white;
+    width: 80px;
+    border-radius: 10%;
+
+    text-align: center;
+  }
+
+  #result {
+    color: white;
+    font-size: 100px;
+    font-style: futura;
+    margin-right: auto !important;
+    border: 3px solid white;
+    width: 340px;
+    height: 90px;
+    margin-left: 120px !important;
+    margin-top: 30px;
+  }
 
 }
 
@@ -29,6 +67,12 @@ body{
   color: white;
   font-size: 100px;
   font-style: futura;
+  text-align: center;
+  border: 3px solid white;
+  width: 340px;
+  height: 90px;
+  margin-left: 470px;
+  margin-top: 30px;
 }
 
 #first{
@@ -45,9 +89,5 @@ body{
   width: 170px;
   height: 35px;
   border-radius: 10%;
-  text-align: center;
-}
-
-#result{
   text-align: center;
 }
